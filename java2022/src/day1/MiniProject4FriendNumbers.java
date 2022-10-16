@@ -1,6 +1,6 @@
 package day1;
 
-public class MiniProcject4FriendNumbers {
+public class MiniProject4FriendNumbers {
     public static void main(String[] args) {
         // 220 and 284 are smallest friend numbers
 
