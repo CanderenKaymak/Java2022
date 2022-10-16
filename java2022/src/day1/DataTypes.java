@@ -1,6 +1,6 @@
 package day1;
 
-public class dataTypes {
+public class DataTypes {
     public static void main(String[] args) {
         int number = 1231231232;
 
