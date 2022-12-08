@@ -42,6 +42,9 @@ public class InMemoryLanguageRepository implements LanguageDao {
     @Override
     public void update(Language language) throws Exception {
         Language languageToUpdate = getById(language.getId());
+        // set(index,Language element) ==> we got the index value from language id, since we have consecutive id
+        // numbers related to their places in the list. so we chose the language which we wanted to update. then we
+        // replaced it with a new language values.
         languages.set(languageToUpdate.getId()-1, new Language(languageToUpdate.getId(),language.getName()));
     }
 
